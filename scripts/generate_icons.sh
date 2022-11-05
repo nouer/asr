@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+
+widths=(16 32 48 128)
+for width in "${widths[@]}"
+do
+  ./scripts/generate_icon.sh "${width}"
+done

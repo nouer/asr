@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "asr",
+  "version": "1.0",
+  "description": "amazon sponsor remove chrome extention",
+  "icons": {
+    "16": "icon/icon16_asr.png",
+    "32": "icon/icon32_asr.png",
+    "48": "icon/icon48_asr.png",
+    "128": "icon/icon128_asr.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {},
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "run_at": "document_end",
+      "matches": [
+        "https://www.amazon.co.jp/*"
+      ]
+    }
+  ]
+}

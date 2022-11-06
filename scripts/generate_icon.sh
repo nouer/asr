@@ -14,13 +14,3 @@ convert \
   -size "${width}x${height}" \
   label:asr \
   "images/icon${width}_asr.png"
-
-convert \
-  -gravity center \
-  -font Helvetica \
-  -pointsize "$((width / 5 * 3))" \
-  -background "#FF4411" \
-  -fill "#FFFFFF" \
-  -size "${width}x${height}" \
-  label:asr \
-  "images/icon${width}_asr_blink.png"

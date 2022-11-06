@@ -1,8 +1,8 @@
-# amazon suponsor remove extentsion
+# amazon sponsor remove extentsion
 
 ## asr feature
 
-- hide supnsored items
+- hide sponsored items
 
 ## comming feature
 
